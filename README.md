@@ -1,7 +1,6 @@
 barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
 
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/77e69a93aac4411fa9898a8beb31b51e)](https://app.codacy.com/manual/barakaVictor/team-166?utm_source=github.com&utm_medium=referral&utm_content=barakaVictor/team-166&utm_campaign=Badge_Grade_Settings)
 
 ## About
 
@@ -21,8 +20,7 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
-
-
+ 
 ## Setup
 
 Install `npm` or `yarn` if you dont have any of them already installed. We recommend Yarn though.
