@@ -1,0 +1,15 @@
+{
+  "name": "uplift-backend",
+  "version": "1.0.0",
+  "description": "A backend REST-API for the uplift web app",
+  "main": "server.js",
+  "author": "Team-166",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
