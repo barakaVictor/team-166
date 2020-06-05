@@ -1,5 +1,6 @@
 The Uplift Frontend web app consuming the uplift backend API
 
+![Uplift-Frontend CI](https://github.com/barakaVictor/uplift-frontend/workflows/Uplift-Frontend%20CI/badge.svg?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/96d2dc00146e4259a7974c602765a5d5)](https://app.codacy.com/manual/barakaVictor/uplift-frontend?utm_source=github.com&utm_medium=referral&utm_content=barakaVictor/uplift-frontend&utm_campaign=Badge_Grade_Dashboard)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
