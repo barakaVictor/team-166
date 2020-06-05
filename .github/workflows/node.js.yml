@@ -24,7 +24,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-        CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
   
     - name: Install yarn package manager
       run: npm install -g yarn
@@ -38,4 +37,7 @@ jobs:
         yarn test:coverage
         
     - name: Send Coverage Report to Codacy
-      run: bash <(curl -Ls https://coverage.codacy.com/get.sh)
+      env:
+        CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
+      run: |
+        bash <(curl -Ls https://coverage.codacy.com/get.sh)
