@@ -2,6 +2,6 @@
 engines:
  duplication:
    exclude_paths:
-     - src/__tests__/**
-     - src/serviceWorker.js
-     - src/**/*.css
+     - 'src/__tests__/**'
+     - 'src/serviceWorker.js'
+     - '**.css'
