@@ -35,7 +35,7 @@ jobs:
         
     - name: Run automated tests
       run: |
-        yarn test:coverage
+        CI=true&&yarn test:coverage
         
     - name: Send Coverage Report to Codacy
       uses: codacy/codacy-coverage-reporter-action@master
