@@ -47,7 +47,7 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "<rootDir>/src/app/**"
+      "<rootDir>/src/app/**/*.{js,jsx}"
     ]
   },
   "browserslist": {
