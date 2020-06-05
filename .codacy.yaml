@@ -1,6 +1,5 @@
 engines:
 exclude_paths:
-  - '.bundle/**'
   - 'src/__tests__/**'
   - 'src/serviceWorker.js'
   - '**.css'
