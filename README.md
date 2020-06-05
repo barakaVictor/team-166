@@ -1,5 +1,6 @@
 The Uplift Frontend web app consuming the uplift backend API
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/96d2dc00146e4259a7974c602765a5d5)](https://app.codacy.com/manual/barakaVictor/uplift-frontend?utm_source=github.com&utm_medium=referral&utm_content=barakaVictor/uplift-frontend&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/77e69a93aac4411fa9898a8beb31b51e)](https://app.codacy.com/manual/barakaVictor/team-166?utm_source=github.com&utm_medium=referral&utm_content=barakaVictor/team-166&utm_campaign=Badge_Grade_Settings)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
