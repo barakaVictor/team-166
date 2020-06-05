@@ -71,7 +71,7 @@ After clonning the repo to your local machine and moving into the cloned folder,
 
 `src/index.js` is the entry to the project.
 
-All tests can be found in the `__tests__' folder.
+All tests can be found in the `__tests__` folder.
 
 ## Authors
 
