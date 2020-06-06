@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Api from '../../../../apiAccess';
+
 import './Login.css';
 
 const Login = () => {
@@ -9,7 +11,25 @@ const Login = () => {
   const submitCredentials = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log(`${username}@${password}`);
+    Api('http://localhost:5000').trigger(
+      {
+        endpoint: 'auth/login',
+        options: {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ username, password })
+        }
+      }
+    ).then((response) => {
+      console.log(response);
+    }).catch((error) => {
+      console.log(error);
+    })
+      .finally(() => {
+        setLoading(false);
+      });
   };
 
   return (
